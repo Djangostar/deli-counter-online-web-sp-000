@@ -9,6 +9,7 @@ def line(katz_deli)
       |name, num| puts "The line is currently: #{num}. #{name}"
     end
   end
+end
 
 def take_a_number(katz_deli, name)
 
