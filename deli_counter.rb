@@ -6,9 +6,9 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.map.with_index(1) do
-      |name, num| line = "The line is currently: " << "#{num}. #{name}"
+      |name, num| the_line = "The line is currently: " << "#{num}. #{name}"
     end
-    puts line
+    puts the_line
   end
 end
 
